@@ -1,0 +1,12 @@
+- name: Personal Page
+  favicon: fa-home
+  url: http://jpdias.github.io
+- name: Twitter
+  favicon: fa-twitter
+  url: http://twitter.com/jpd1as
+- name: Flickr
+  favicon: fa-flickr
+  url: http://www.flickr.com/photos/joaopedrodias/
+- name: Instagram
+  favicon: fa-instagram
+  url: http://instagram.com/jpd1as

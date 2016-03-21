@@ -1,7 +1,7 @@
 
 <div id="sidebar-wrapper">
 <aside class="sidebar-left-collapse sidebar-wrapper">
-	<p class="head"><a href="/">João Pedro Dias</a></p>
+	<p class="head"><a href="{{ site.baseurl }}">João Pedro Dias</a></p>
     <div class="sidebar-links">
 
         <div class="link-blue">
@@ -19,10 +19,10 @@
                 <i class="fa fa-map-marker"></i>Other Places
             </a>
             <ul class="sub-links">
-                <li><a href="http://jpdias.github.io"><i class="fa fa-home"></i> Personal Page</a></li>
-                <li><a href="http://www.flickr.com/photos/joaopedrodias/"><i class="fa fa-flickr"></i> Flickr</a></li>
-                <li><a href="http://twitter.com/jpd1as"><i class="fa fa-twitter"></i> Twitter</a></li>
-                <li><a href="http://instagram.com/jpd1as"><i class="fa fa-instagram"></i> Instagram</a></li>
+                {% for link in site.data.links %}
+                <li><a href="{{ link.url }}"><i class="fa {{ link.favicon }}"></i> {{ link.name }}</a></li>
+                {% endfor %}
+
             </ul>
         </div>
     </div>
