@@ -160,6 +160,9 @@ footer .flickr-notice {
 
 
 /* The left-collapsing sidebar */
+.sidebar-selected {
+    color: rgb(211, 84, 0) !important;
+}
 
 .sidebar-left-collapse {
     font-family: Arial, Helvetica, sans-serif;
