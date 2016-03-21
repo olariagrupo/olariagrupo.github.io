@@ -8,6 +8,7 @@
 ## How is it built?
 
 This portfolio is based on [Jekyll](https://jekyllrb.com/). Please read the [docs](https://jekyllrb.com/docs/home/).
+Hosted freely on [GitHub pages](https://pages.github.com/).
 
 ## How to configure
 
@@ -23,9 +24,9 @@ Portfolio pages are based on Flickr collections. To modify it you just need to c
 - `url`: URL
 
 **Homepage** is configurable in the `homepage.yaml` by:
-- `quote`: A quote of your choice.
+- `quote`: The quote of your choice.
 - `author`: The author of the quote.
-- `background`: An background image for your front page.
+- `background`: The background image for your front page.
 
 ## Demo & Personal Use
 

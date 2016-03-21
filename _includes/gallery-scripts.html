@@ -10,6 +10,7 @@
 
             $('.spinner-wrapper').show();
             $('.gallery-container').empty();
+            $("#" + location.hash.slice(1)).toggleClass("sidebar-selected")
             $('.gallery').flickr({
                 apiKey: '69b2be122a9b287e85d377673edef6e6',
                 photosetId: $("#" + location.hash.slice(1)).data("id"),
@@ -28,6 +29,8 @@
         if (location.hash.slice(1) != "") {
             $('.spinner-wrapper').show();
             $('.gallery-container').empty();
+            $('.cat-link').removeClass("sidebar-selected")
+            $("#" + location.hash.slice(1)).toggleClass("sidebar-selected")
             $('.gallery').flickr({
                 apiKey: '69b2be122a9b287e85d377673edef6e6',
                 photosetId: $("#" + location.hash.slice(1)).data("id"),
