@@ -1,18 +1,14 @@
-- name: Architecture
+- name: Reis 2015
+  key: 72157717921125347
+- name: Reis 2016
   key: 72157633566493386
-- name: Animals
-  key: 72157633566493386
-- name: Nature
+- name: Reis 2017
   key: 72157633532267229
-- name: Places
+- name: Reis 2018
   key: 72157633566493386
-- name: Landscapes
+- name: Reis 2019
   key: 72157633566493386
-- name: Sky
+- name: Reis 2020
   key: 72157633566493386
-- name: Lights
-  key: 72157639277651254
-- name: People
+- name: Reis 2021
   key: 72157635243918659
-- name: Miscellaneous 
-  key: 72157633566493386
