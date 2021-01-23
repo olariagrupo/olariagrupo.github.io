@@ -27,7 +27,3 @@ Portfolio pages are based on Flickr collections. To modify it you just need to c
 - `quote`: The quote of your choice.
 - `author`: The author of the quote.
 - `background`: The background image for your front page.
-
-## Demo & Personal Use
-
-Here it is: [**To the demo!**](http://jpdias.me/portfolio-photo/)
