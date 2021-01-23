@@ -1,12 +1,12 @@
 - name: Personal Page
   favicon: fa-home
-  url: http://jpdias.github.io
-- name: Twitter
-  favicon: fa-twitter
-  url: http://twitter.com/jpd1as
+  url: http://olariagrupo.github.io
+- name: Youtube
+  favicon: fa-youtube
+  url: https://www.youtube.com/channel/UCh9WmGKOLKlfUlI0ESWNDsA
 - name: Flickr
   favicon: fa-flickr
-  url: http://www.flickr.com/photos/joaopedrodias/
+  url: https://www.flickr.com/people/191792122@N07/
 - name: Instagram
   favicon: fa-instagram
-  url: http://instagram.com/jpd1as
+  url: http://instagram.com/ternodatmc
